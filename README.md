@@ -6,7 +6,7 @@
 8 个中国电商平台检索商品、按 URL / ID 取详情、解析商品链接。**零配置，不需要 API Key。**
 
 - 技能名：`cn-ecommerce-search`
-- 版本：v2.0.0（本仓库为二次定制版，追加了「运营总监」身份绑定）
+- 版本：v2.0.0-custom.2（本仓库为二次定制版：追加「运营总监」身份绑定 + 免费赞助）
 - 原作者：shopme ｜ 许可：MIT
 - 定制：沈艳朝 / Emperor（2026-09-23）
 - 归属角色：**运营总监（沈运达 / `douyin-ecom-ops-team-lead`）**
@@ -144,6 +144,12 @@ cn-ecommerce-search/
 ├── README.md    使用文档（本文件）
 ├── SKILL.md     技能本体（含运营总监身份绑定章节）
 ├── icon.png     技能图标
+├── assets/
+│   └── sponsor-qr.png  免费赞助二维码
+├── assets/
+│   └── sponsor-qr.png  免费赞助二维码
+├── assets/
+│   └── sponsor-qr.png  免费赞助二维码
 └── LICENSE      MIT
 ```
 
@@ -153,3 +159,17 @@ cn-ecommerce-search/
 |---|---|---|
 | v2.0.0 | — | 原版：8 平台搜索 / 详情 / 链接解析，免 API Key |
 | v2.0.0-custom.1 | 2026-09-23 | 追加「归属角色：运营总监（沈运达）」章节：触发场景表、调用纪律、在全岗评估中的位置；同步写入运营总监角色定义与专家团名册 |
+| v2.0.0-custom.2 | 2026-09-23 | README 底部新增「免费赞助」二维码（`assets/sponsor-qr.png`）；目录结构补 `assets/` |
+
+---
+
+## 九、免费赞助
+
+这套东西是白送的：**不收费、不锁功能、不塞广告**。如果它帮你省了时间、或者多赚了钱，
+可以扫码请 Emperor 喝杯茶 —— 完全自愿，不打赏也照样用、照样更新。
+
+<p align="center">
+  <img src="assets/sponsor-qr.png" alt="免费赞助 · Emperor、| 说事-不闲聊" width="280">
+</p>
+
+<p align="center"><sub>扫码可备注一句你在做什么类目，方便后续针对性更新</sub></p>
